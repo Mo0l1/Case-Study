@@ -4,8 +4,8 @@ This case study is part of the Google Data Analyst Professional Course. The Data
 The primary goal is to answer the question how annual members and casual riders use Cyclistic bikes differently.
 
 ## Table of Contents
-- [Ask Phase](#ask_phase)
-- [Prepare Phase](#prepare_phase)
+- [Ask Phase](#ask-phase)
+- [Prepare Phase](#prepare-phase)
 
 ## Ask Phase:
 The finance analyst team has stated that annual members are much more profitable than casual riders. Moreno wants to set the focus on conversion from casual riders to members rather than non users to casual riders. Focus is set on a marketing campaign addressing casual riders.

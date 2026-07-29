@@ -17,6 +17,5 @@ I have the documentation how many users are casual riders and members. Any probl
 
 ## Process Phase
 
-### 1. 
 All monthly trip tables (July 2025 – June 2026) were merged into a single 
 table containing ~5.93M rows.

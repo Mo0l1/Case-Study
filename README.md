@@ -3,6 +3,10 @@ This case study is part of the Google Data Analyst Professional Course. The Data
 
 The primary goal is to answer the question how annual members and casual riders use Cyclistic bikes differently.
 
+## Table of Contents
+- [Ask Phase](#ask_phase)
+- [Prepare Phase](#prepare_phase)
+
 ## Ask Phase:
 The finance analyst team has stated that annual members are much more profitable than casual riders. Moreno wants to set the focus on conversion from casual riders to members rather than non users to casual riders. Focus is set on a marketing campaign addressing casual riders.
 The question to answer is how annual members and casual riders use Cyclistic bikes differently. Therefore I need to analyze the last 12 months of the bike sharing usage to identify trends. Key stakeholders are Moreno as the director of marketing and my manager who is responsible for marketing. The marketing analytics team as my team which needs to be constantly updated and worked together with and the executive team as they are making the final decision on wether or not going with the recommended marketing program.

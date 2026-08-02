@@ -8,13 +8,62 @@ The primary goal is to answer the question how annual members and casual riders 
 - [Prepare Phase](#prepare-phase)
 - [Process Phase](#process-phase)
 
-## Ask Phase:
-The finance analyst team has stated that annual members are much more profitable than casual riders. Moreno wants to set the focus on conversion from casual riders to members rather than non users to casual riders. Focus is set on a marketing campaign addressing casual riders.
-The question to answer is how annual members and casual riders use Cyclistic bikes differently. Therefore I need to analyze the last 12 months of the bike sharing usage to identify trends. Key stakeholders are Moreno as the director of marketing and my manager who is responsible for marketing. The marketing analytics team as my team which needs to be constantly updated and worked together with and the executive team as they are making the final decision on wether or not going with the recommended marketing program.
+## Ask Phase
 
-## Prepare Phase:
-All the data is provided by this data data analytics program and available to download via the Case Study 1 document. Data provided by Lyft Bikes and Scooters, LLC (operator of Divvy), data owned by the City of Chicago, under this [license](https://divvybikes.com/data-license-agreement). Data was gathered but personal data was deleted. The data used for this project covers the last 12 months so that it is current. Looking through the tables I noticed that there is a large number of missing start and end station data as well as the lat lng start and end data. I would assume it is because people did not start with or park the bikes from or at a station directly but in a range where it didn’t recognize the station. I have the ride_id where you could also count how many people use the Service how often and if they are members or not. I have the rideable_type. I have the started_at and ended_at data to determine the time span. I checked that there are no NULL values in this category which is positive. I have start and end station names and ids as well as their lat and lng.  checked and especially in the station names and ids categorie around 20% is NULL values. I will check if this will be a disadvantage during the cleaning phase
-I have the documentation how many users are casual riders and members. Any problems with the data will be sorted through during the cleaning process. I downloaded the data from 2025.07 to 2026.06.
+### Business Task
+- How do annual members and casual riders use Cyclistic bikes differently? 
+- This analysis aims to uncover behavioral patterns that can inform a 
+- marketing strategy focused on converting casual riders into annual members.
+
+### Background
+Cyclistic's finance team has determined that annual members are significantly more profitable than casual riders. Based on this insight, Director of Marketing has decided to focus future marketing efforts on converting existing casual riders into members, rather than acquiring entirely new customers — since riders who already use the service are considered a more efficient and cost-effective target group.
+
+This analysis will directly inform the design of a marketing campaign aimed at casual riders.
+
+### Key Stakeholders
+
+| Director of Marketing | sets strategic direction |
+| Marketing Manager | Oversees campaign execution and marketing decisions |
+| Marketing Analytics Team | Collaborates on and reviews this analysis |
+| Executive Team | Approves or rejects the final marketing recommendation |
+
+### Guiding Question
+> How do annual members and casual riders use Cyclistic bikes differently, 
+> and what does that reveal about how to convert casual riders into members?
+
+## Prepare Phase
+
+### Data Source
+This analysis uses Cyclistic's historical trip data, provided by Lyft Bikes and Scooters, LLC (operator of Divvy), with data owned by the City of Chicago. The dataset is made publicly available under Divvy's [Data License Agreement](https://divvybikes.com/data-license-agreement). All personally identifiable information has been removed by Divvy prior to publication, in line with their data privacy practices.
+
+### Scope
+The analysis covers the most recent 12 months of ride data available (July 2025 – June 2026), ensuring the findings reflect current rider behavior.
+
+### Data Structure
+Each row represents a single bike ride and includes:
+- `ride_id` – unique identifier for each trip
+- `rideable_type` – type of bike used (classic or electric)
+- `started_at` / `ended_at` – trip start and end timestamps
+- `start_station_name` / `id`, `end_station_name` / `id` – station details
+- `start_lat` / `lng`, `end_lat` / `lng` – geographic coordinates
+- `member_casual` – rider type (member or casual)
+
+### Initial Data Quality Observations
+- No missing values were found in `started_at` or `ended_at`.
+- Approximately [exact %]% of station name/ID fields and coordinate 
+  fields contained missing values — likely because trips did not begin 
+  or end at a fixed docking station but within a broader zone not tied 
+  to a specific station name.
+- These and other data quality issues (duplicates, invalid entries, 
+  outliers) were addressed in detail during the Data Cleaning phase.
+
+### Data Credibility (ROCCC)
+- **Reliable:** Collected systematically through Divvy's official system
+- **Original:** First-party data provided directly by the operator
+- **Comprehensive:** Includes trip-level detail across time, location, 
+  user type, and vehicle type
+- **Current:** Covers the most recent available 12-month period
+- **Cited:** Publicly licensed and clearly sourced from Divvy/City of Chicago
 
 ## Process Phase
 

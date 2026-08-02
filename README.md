@@ -13,8 +13,7 @@ The primary goal is to answer the question how annual members and casual riders 
 
 ### Business Task
 - How do annual members and casual riders use Cyclistic bikes differently? 
-- This analysis aims to uncover behavioral patterns that can inform a 
-- marketing strategy focused on converting casual riders into annual members.
+- This analysis aims to uncover behavioral patterns that can inform a marketing strategy focused on converting casual riders into annual members.
 
 ### Background
 Cyclistic's finance team has determined that annual members are significantly more profitable than casual riders. Based on this insight, Director of Marketing has decided to focus future marketing efforts on converting existing casual riders into members, rather than acquiring entirely new customers — since riders who already use the service are considered a more efficient and cost-effective target group.

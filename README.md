@@ -67,32 +67,35 @@ Each row represents a single bike ride and includes:
 
 ## Process Phase
 
-### Data Cleaning in BigQuery (SQL)
+### All data cleaning and transformation was performed in **BigQuery (SQL)**. 
+The 12 monthly trip tables (July 2025 – June 2026, ~5.93M rows) were 
+merged, validated, and cleaned before analysis. Full queries for each 
+step are linked below.
 
-**1. Merging monthly tables** 
+### **1. Merging monthly tables** 
 - All monthly trip tables (July 2025 – June 2026) were loaded into BigQuery and merged into a single table (~5.93M rows).
 - See [01.merge_tables.sql](sql/01_merge_tables.sql)
 
-**2. Null and duplicate checks**
+### **2. Null and duplicate checks**
 - Checked all columns for NULL values (none found except expected station-related NULLs for dockless bikes). Identified 35 exact duplicate rows and removed them via `SELECT DISTINCT`, while retaining 8 rows with an invalid `ride_id` of `0`, as they represented distinct valid trips.
 - See [02.null_and_duplicate_checks.sql](sql/02_null_and_duplicate_checks.sql)
 
-**3. Data type consistency checks** 
+### **3. Data type consistency checks** 
 - Verified that timestamp and ride_id character lengths were consistent; minor formatting differences (missing milliseconds, incomplete ride_ids) were found but did not affect data validity.
 - See [03_data_type_checks.sql](sql/03_data_type_checks.sql)
 
-**4. Restructuring columns** 
+### **4. Restructuring columns** 
 - Split `started_at`/`ended_at` into separate date/time columns and reordered the table for readability.
 - See [04_restructure_columns.sql](sql/04_restructure_columns.sql)
 
-**5. Category validation**
+### **5. Category validation**
 - Confirmed only two valid values exist for `rideable_type` and `member_casual`.
 - See [05_category_validation.sql](sql/05_category_validation.sql)
 
-**6. Outlier removal** 
+### **6. Outlier removal** 
 - Calculated ride duration in minutes and excluded 29 rides with negative duration and 5,532 rides exceeding 24 hours (likely lost/stolen bikes), removing 5,561 rows total.
 - See [06_outlier_removal.sql](sql/06_outlier_removal.sql)
 
-**7. Date range and station name checks** 
+### **7. Date range and station name checks** 
 - Verified the full date range was within scope and identified minor station name inconsistencies (irrelevant to the core analysis, as it groups by `station_id`).
 - See [07_date_range_station_checks.sql](sql/07_date_range_station_checks.sql)

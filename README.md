@@ -6,6 +6,7 @@ The primary goal is to answer the question how annual members and casual riders 
 ## Table of Contents
 - [Ask Phase](#ask-phase)
 - [Prepare Phase](#prepare-phase)
+- [Process Phase](#process-phase)
 
 ## Ask Phase:
 The finance analyst team has stated that annual members are much more profitable than casual riders. Moreno wants to set the focus on conversion from casual riders to members rather than non users to casual riders. Focus is set on a marketing campaign addressing casual riders.

@@ -22,11 +22,11 @@ I have the documentation how many users are casual riders and members. Any probl
 
 **1. Merging monthly tables** 
 - All monthly trip tables (July 2025 – June 2026) were loaded into BigQuery and merged into a single table (~5.93M rows).
-- See [01.merge_tables.sql](sql/01.merge_tables.sql)
+- See [01.merge_tables.sql](sql/01_merge_tables.sql)
 
 **2. Null and duplicate checks**
 - Checked all columns for NULL values (none found except expected station-related NULLs for dockless bikes). Identified 35 exact duplicate rows and removed them via `SELECT DISTINCT`, while retaining 8 rows with an invalid `ride_id` of `0`, as they represented distinct valid trips.
-- See [02.null_and_duplicate_checks.sql](sql/02.null_and_duplicate_checks.sql)
+- See [02.null_and_duplicate_checks.sql](sql/02_null_and_duplicate_checks.sql)
 
 **3. Data type consistency checks** 
 - Verified that timestamp and ride_id character lengths were consistent; minor formatting differences (missing milliseconds, incomplete ride_ids) were found but did not affect data validity.

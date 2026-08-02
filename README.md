@@ -7,7 +7,7 @@ The primary goal is to answer the question how annual members and casual riders 
 - [Ask Phase](#ask-phase)
 - [Prepare Phase](#prepare-phase)
 - [Process Phase](#process-phase)
-- [Analyze Phase](#analyze-phase)
+- [Analyze and Share Phase](#analyze-and-share-phase)
 
 ## Ask Phase
 
@@ -101,6 +101,13 @@ step are linked below.
 - Verified the full date range was within scope and identified minor station name inconsistencies (irrelevant to the core analysis, as it groups by `station_id`).
 - See [07_date_range_station_checks.sql](sql/07_date_range_station_checks.sql)
 
-## Analyze Phase
+## Analyze and Share Phase
 
 All statistical analysis and visualization were performed in **Python** using aggregated results exported from BigQuery [08_aggregations_for_analysis](sql/08_aggregations_for_analysis.sql). Full code and visualizations are available in the analysis notebook. [Cycling.ipynb](notebook/Cycling.ipynb)
+
+### 1. Member vs. Casual Rider Distribution
+Members account for the majority of total rides (64.36%), compared to 
+35.64% for casual riders.
+
+![Member vs Casual](<img width="1050" height="600" alt="casual_member" src="https://github.com/user-attachments/assets/2ad58948-1e45-4f01-8282-8a194293b3f9" />)
+

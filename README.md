@@ -109,5 +109,5 @@ All statistical analysis and visualization were performed in **Python** using ag
 Members account for the majority of total rides (64.36%), compared to 
 35.64% for casual riders.
 
-(<img width="1050" height="600" alt="casual_member" src="https://github.com/user-attachments/assets/2ad58948-1e45-4f01-8282-8a194293b3f9" />)
+<img width="500" alt="casual_member" src="https://github.com/user-attachments/assets/2ad58948-1e45-4f01-8282-8a194293b3f9" />
 

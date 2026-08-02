@@ -1,0 +1,15 @@
+day_of_week,member_casual,total_rides,percent
+Sunday,casual,347161,5.86
+Sunday,member,405821,6.85
+Monday,casual,245285,4.14
+Monday,member,535526,9.04
+Tuesday,casual,244497,4.13
+Tuesday,member,618675,10.44
+Wednesday,casual,235036,3.97
+Wednesday,member,602451,10.16
+Thursday,casual,264025,4.45
+Thursday,member,608924,10.27
+Friday,casual,330712,5.58
+Friday,member,559810,9.45
+Saturday,casual,445387,7.51
+Saturday,member,483443,8.16

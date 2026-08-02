@@ -18,5 +18,9 @@ I have the documentation how many users are casual riders and members. Any probl
 
 ## Process Phase
 
-All monthly trip tables (July 2025 – June 2026) were merged into a single 
+### Data Cleaning in BigQuery (SQL)
+
+- All monthly trip tables (July 2025 – June 2026) were merged into a single 
 table containing ~5.93M rows. See [01.merge_tables.sql](sql/01.merge_tables.sql)
+
+- Checking for NULL-values. See [02.checking_null_values](sql/02.checking_null_values.sql)

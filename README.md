@@ -111,3 +111,8 @@ Members account for the majority of total rides (64.36%), compared to
 
 <img width="500" alt="casual_member" src="https://github.com/user-attachments/assets/2ad58948-1e45-4f01-8282-8a194293b3f9" />
 
+### 2. Rides by Weekday
+A clear difference between the two groups:
+
+- **Members** ride consistently more on weekdays (Tuesday–Thursday peak around 600–618K rides), with a noticeable drop on weekends.
+- **Casual riders** ride less during the week and peak sharply on Saturday (445K rides), suggesting leisure or recreational usage.

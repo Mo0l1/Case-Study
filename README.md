@@ -106,13 +106,65 @@ step are linked below.
 All statistical analysis and visualization were performed in **Python** using aggregated results exported from BigQuery [08_aggregations_for_analysis](sql/08_aggregations_for_analysis.sql). Full code and visualizations are available in the analysis notebook. [Cycling.ipynb](notebook/Cycling.ipynb)
 
 ### 1. Member vs. Casual Rider Distribution
+
 Members account for the majority of total rides (64.36%), compared to 
 35.64% for casual riders.
 
 <img width="500" alt="casual_member" src="https://github.com/user-attachments/assets/2ad58948-1e45-4f01-8282-8a194293b3f9" />
 
 ### 2. Rides by Weekday
+
 A clear difference between the two groups:
 
 - **Members** ride consistently more on weekdays (Tuesday–Thursday peak around 600–618K rides), with a noticeable drop on weekends.
 - **Casual riders** ride less during the week and peak sharply on Saturday (445K rides), suggesting leisure or recreational usage.
+
+
+<img width="500" alt="rides_by_weekday" src="https://github.com/user-attachments/assets/c1069d62-054c-4341-93a2-015cb080093f" />
+
+A Chi-Square test of independence confirmed a statistically significant association between `member_casual` and `day_of_week` (χ² = 156,443.80, p < 0.001, df = 6), with a **moderate** effect size (Cramér's V = 0.163) — the strongest association found among all categorical variables tested, supporting a clear commuter (member) vs. leisure (casual) usage pattern.
+
+### 3. Rides by Hour of Day
+
+Members show a **bimodal pattern** with peaks around 8 AM and a sharper peak at 5–6 PM, consistent with commute times. Casual riders show a **broader, single peak** in the afternoon (peaking around 5 PM), consistent with leisure activity.
+
+<img width="500" alt="rides_by_time_of_day" src="https://github.com/user-attachments/assets/83c2c4c6-a773-4e55-8be6-e31c3791177f" />
+
+This association is also statistically significant and moderate in strength (Cramér's V = 0.159, p < 0.001), reinforcing the commuter vs. leisure hypothesis from a second angle.
+
+### 4. Rides by Month
+
+Ride volume is highest in summer months (July–September 2025) and lowest in winter (December–February), consistent with typical seasonal cycling behavior. Casual ridership drops more sharply in winter relative to members, who maintain more stable usage the whole year.
+
+<img width="500" alt="rides_by_month" src="https://github.com/user-attachments/assets/2b8b050e-5a73-4cda-ac2f-3beee9a94762" />
+
+The association between month and user type is significant with a moderate effect size (Cramér's V = 0.144, p < 0.001).
+
+### 5. Bike Type Preference
+
+Both rider groups predominantly choose electric bikes over classic bikes, with casual riders showing a slightly stronger preference (70.15%) compared to members (66.34%).
+
+<img width="900" height="750" alt="user_type_bike_type" src="https://github.com/user-attachments/assets/2f3a7ecc-497a-4bb8-b11a-b74c4a94105e" />
+
+While this difference is statistically significant (χ² = 9,023.46, p < 0.001), the effect size is very small (Cramér's V = 0.039), indicating that bike type preference is **not** a meaningful differentiator between member and casual riders — both groups behave similarly in this respect.
+
+### 6. Ride Duration by User Type
+
+Casual riders take substantially longer trips on average (mean: 17.9 
+minutes, median: 11.0 minutes) compared to members (mean: 11.5 minutes, 
+median: 8.0 minutes).
+
+<img width="500" alt="duration_type" src="https://github.com/user-attachments/assets/1403f919-f2d7-48ef-9253-c90fe2e46c3d" />
+
+A Welch's t-test confirmed this difference is highly statistically significant (t = 34.66, p < 0.001). Combined with the weekday and time-of-day patterns, this supports the interpretation that casual riders use bikes for longer, more leisurely trips, while members take shorter, more purposeful (likely commute-related) trips.
+
+### Key Findings Summary
+
+| Weekday usage pattern (commuter vs. leisure) | Significant | Moderate (V = 0.163) |
+| Time-of-day usage pattern | Significant | Moderate (V = 0.159) |
+| Monthly/seasonal usage pattern | Significant | Moderate (V = 0.144) |
+| Bike type preference (electric vs. classic) | Significant | Very small (V = 0.039) |
+| Ride duration (casual vs. member) | Significant | Large practical difference (~6 min avg.) |
+
+### Interpretation
+The most actionable insights come from **weekday, time-of-day, and ride-duration patterns**, which consistently point to the same conclusion: members exhibit commuter-like behavior — shorter trips concentrated on weekdays, with a distinct bimodal peak around typical commute hours (approx. 7–9 AM and 5–6 PM) — consistent with riding to and from work. Casual riders, by contrast, exhibit leisure-like behavior: longer trips concentrated on weekend afternoons, with usage peaking in the early evening rather than around fixed commute times. Bike type preference, while statistically significant due to the large sample size, shows a very small effect and is **not** a meaningful behavioral differentiator between the two groups.

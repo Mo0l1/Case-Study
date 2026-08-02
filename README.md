@@ -7,6 +7,7 @@ The primary goal is to answer the question how annual members and casual riders 
 - [Ask Phase](#ask-phase)
 - [Prepare Phase](#prepare-phase)
 - [Process Phase](#process-phase)
+- [Analyze Phase](#analyze-phase)
 
 ## Ask Phase
 
@@ -99,3 +100,7 @@ step are linked below.
 ### **7. Date range and station name checks** 
 - Verified the full date range was within scope and identified minor station name inconsistencies (irrelevant to the core analysis, as it groups by `station_id`).
 - See [07_date_range_station_checks.sql](sql/07_date_range_station_checks.sql)
+
+## Analyze Phase
+
+All statistical analysis and visualization were performed in **Python** using aggregated results exported from BigQuery [08_aggregations_for_analysis](sql/08_aggregations_for_analysis.sql). Full code and visualizations are available in the analysis notebook. [Cycling.ipynb](notebook/Cycling.ipynb)

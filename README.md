@@ -1,5 +1,5 @@
 # Case_Study
-This case study is part of the Google Data Analyst Professional Course. The Data has been made available by Motivate International Inc. under this [license](https://divvybikes.com/data-license-agreement). The case study is structured into the Ask, Prepare, Process, Analyze, Share and Act Phases.
+This case study is part of the Google Data Analytics Professional Certificate. The data used in this analysis (July 2025 – June 2026) was made available by Lyft Bikes and Scooters, LLC (operator of Divvy) under [Divvy's Data License Agreement](https://divvybikes.com/data-license-agreement). Note: the original case study materials reference Motivate International Inc. as the data provider; Divvy has been operated by Lyft since its 2018 acquisition of Motivate. The case study is structured into the Ask, Prepare, Process, Analyze, Share and Act Phases.
 
 The primary goal is to answer the question how annual members and casual riders use Cyclistic bikes differently.
 
@@ -36,7 +36,7 @@ This analysis will directly inform the design of a marketing campaign aimed at c
 ## Prepare Phase
 
 ### Data Source
-This analysis uses Cyclistic's historical trip data, provided by Lyft Bikes and Scooters, LLC (operator of Divvy), with data owned by the City of Chicago. The dataset is made publicly available under Divvy's [Data License Agreement](https://divvybikes.com/data-license-agreement). All personally identifiable information has been removed by Divvy prior to publication, in line with their data privacy practices.
+This analysis uses Cyclistic's historical trip data, provided by Lyft Bikes and Scooters, LLC (operator of Divvy), with data owned by the City of Chicago. The dataset is made publicly available under Divvy's [Data License Agreement](https://divvybikes.com/data-license-agreement). The data does not include any personally identifiable information, meaning individual riders cannot be tracked across multiple trips or connected to specific accounts.
 
 ### Scope
 The analysis covers the most recent 12 months of ride data available (July 2025 – June 2026), ensuring the findings reflect current rider behavior.

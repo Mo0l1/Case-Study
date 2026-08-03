@@ -8,6 +8,7 @@ The primary goal is to answer the question how annual members and casual riders 
 - [Prepare Phase](#prepare-phase)
 - [Process Phase](#process-phase)
 - [Analyze and Share Phase](#analyze-and-share-phase)
+- [Act Phase](#act-phase)
 
 ## Ask Phase
 
@@ -170,4 +171,18 @@ A Welch's t-test confirmed this difference is highly statistically significant (
 | Ride duration (casual vs. member) | Significant | Large practical difference (~6 min avg.) |
 
 ### Interpretation
+
 The most actionable insights come from **weekday, time-of-day, and ride-duration patterns**, which consistently point to the same conclusion: members exhibit commuter-like behavior — shorter trips concentrated on weekdays, with a distinct bimodal peak around typical commute hours (approx. 7–9 AM and 5–6 PM) — consistent with riding to and from work. Casual riders, by contrast, exhibit leisure-like behavior: longer trips concentrated on weekend afternoons, with usage peaking in the early evening rather than around fixed commute times. Bike type preference, while statistically significant due to the large sample size, shows a very small effect and is **not** a meaningful behavioral differentiator between the two groups.
+
+## Act Phase
+
+Based on the analysis, the following three recommendations are proposed to support the conversion of casual riders into annual members:
+
+1. **Partner with the City of Chicago on leisure-oriented membership perks.**
+Since casual riders show clear leisure-usage patterns (weekend peaks, longer average trip durations), a membership that is marketed purely as a "commuter tool" may not appeal to this group. Bundling annual membership with discounts at city amenities (e.g., public pools, parks, cultural events) would reposition membership as valuable for leisure users too, not just commuters.
+
+2. **Introduce a weekend-focused membership tier.**
+Casual riders show a sharp usage peak on Saturdays, distinctly different from the weekday-heavy pattern of members. A lower-cost "weekend membership" could serve as a stepping stone — letting casual riders experience membership benefits at a price point that matches their actual usage pattern, potentially increasing long-term conversion to full annual memberships.
+
+3. **Offer discounted seasonal memberships during low-demand months.** 
+Casual ridership drops sharply in winter (December–February) compared to members, who maintain more stable usage year-round. Discounted membership pricing during these off-peak months could incentivize casual riders to convert during a period when they are otherwise less engaged, helping smooth demand across the year while building habitual membership use.

@@ -172,11 +172,11 @@ A Welch's t-test confirmed this difference is highly statistically significant (
 
 ### Interpretation
 
-The most actionable insights come from **weekday, time-of-day, and ride-duration patterns**, which consistently point to the same conclusion: members exhibit commuter-like behavior — shorter trips concentrated on weekdays, with a distinct bimodal peak around typical commute hours (approx. 7–9 AM and 5–6 PM) — consistent with riding to and from work. Casual riders, by contrast, exhibit leisure-like behavior: longer trips concentrated on weekend afternoons, with usage peaking in the early evening rather than around fixed commute times. Bike type preference, while statistically significant due to the large sample size, shows a very small effect and is **not** a meaningful behavioral differentiator between the two groups.
+The most actionable insights come from **weekday, time-of-day, and ride-duration patterns**, which consistently point to the same conclusion: members exhibit commuter-like behavior, shorter trips concentrated on weekdays, with a distinct bimodal peak around typical commute hours (approx. 7–9 AM and 5–6 PM) consistent with riding to and from work. Casual riders, by contrast, exhibit leisure-like behavior, longer trips concentrated on weekend afternoons, with usage peaking in the early evening rather than around fixed commute times. Bike type preference, while statistically significant due to the large sample size, shows a very small effect and is **not** a meaningful behavioral differentiator between the two groups.
 
 ## Act Phase
 
-Based on the analysis, the following three recommendations are proposed to support the conversion of casual riders into annual members:
+Based on the analysis, the following three recommendations are proposed to support the conversion of casual riders into (annual) members:
 
 1. **Partner with the City of Chicago on leisure-oriented membership perks.**
 Since casual riders show clear leisure-usage patterns (weekend peaks, longer average trip durations), a membership that is marketed purely as a "commuter tool" may not appeal to this group. Bundling annual membership with discounts at city amenities (e.g., public pools, parks, cultural events) would reposition membership as valuable for leisure users too, not just commuters.

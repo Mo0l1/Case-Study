@@ -22,6 +22,8 @@ This analysis will directly inform the design of a marketing campaign aimed at c
 
 ### Key Stakeholders
 
+| Stakeholder | Role |
+|---|---|
 | Director of Marketing | sets strategic direction |
 | Marketing Manager | Oversees campaign execution and marketing decisions |
 | Marketing Analytics Team | Collaborates on and reviews this analysis |
@@ -159,6 +161,8 @@ A Welch's t-test confirmed this difference is highly statistically significant (
 
 ### Key Findings Summary
 
+| Finding | Statistical Significance | Effect Size / Practical Relevance |
+|---|---|---|
 | Weekday usage pattern (commuter vs. leisure) | Significant | Moderate (V = 0.163) |
 | Time-of-day usage pattern | Significant | Moderate (V = 0.159) |
 | Monthly/seasonal usage pattern | Significant | Moderate (V = 0.144) |

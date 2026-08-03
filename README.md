@@ -50,8 +50,8 @@ Each row represents a single bike ride and includes:
 
 ### Initial Data Quality Observations
 - No missing values were found in `started_at` or `ended_at`.
-- Approximately [exact %]% of station name/ID fields and coordinate 
-  fields contained missing values — likely because trips did not begin 
+- Approximately 20 % of station name/ID fields and coordinate 
+  fields contained missing values, likely because trips did not begin 
   or end at a fixed docking station but within a broader zone not tied 
   to a specific station name.
 - These and other data quality issues (duplicates, invalid entries, 

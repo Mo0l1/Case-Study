@@ -183,8 +183,8 @@ Based on the analysis, the following three recommendations are proposed to suppo
 1. **Partner with the City of Chicago on leisure-oriented membership perks.**
 Since casual riders show clear leisure-usage patterns (weekend peaks, longer average trip durations), a membership that is marketed purely as a "commuter tool" may not appeal to this group. Bundling annual membership with discounts at city amenities (e.g., public pools, parks, cultural events) would reposition membership as valuable for leisure users too, not just commuters.
 
-2. **Introduce a weekend-focused membership tier.**
-Casual riders show a sharp usage peak on Saturdays, distinctly different from the weekday-heavy pattern of members. A lower-cost "weekend membership" could serve as a stepping stone — letting casual riders experience membership benefits at a price point that matches their actual usage pattern, potentially increasing long-term conversion to full annual memberships.
+2. **Reframe the annual membersip's value proposition around weekend and leisure use and not just commuting .**
+Since casual riders show a sharp usage peak on Saturdays, marketing campaigns could highlight how an annual membership pays off even for weekend-only users. For that you could use pricing comparisons that clearly show that value of annual memberships not only come from daily commuting.
 
 3. **Offer discounted seasonal memberships during low-demand months.** 
 Casual ridership drops sharply in winter (December–February) compared to members, who maintain more stable usage year-round. Discounted membership pricing during these off-peak months could incentivize casual riders to convert during a period when they are otherwise less engaged, helping smooth demand across the year while building habitual membership use.

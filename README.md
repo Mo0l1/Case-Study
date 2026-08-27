@@ -1,5 +1,7 @@
 # Cyclistic Case Study
-This case study is part of the Google Data Analytics Professional Certificate. The data used in this analysis (July 2025 – June 2026) was made available by Lyft Bikes and Scooters, LLC (operator of Divvy) under [Divvy's Data License Agreement](https://divvybikes.com/data-license-agreement) and is owned by the City of Chicago. Note: the original case study materials reference Motivate International Inc. as the data provider. Divvy has been operated by Lyft since its 2018 acquisition of Motivate. The case study is structured into the Ask, Prepare, Process, Analyze, Share and Act Phases.
+This case study is part of the Google Data Analytics Professional Certificate. The data used in this analysis (July 2025 – June 2026) was made available by Lyft Bikes and Scooters, LLC (operator of Divvy) under [Divvy's Data License Agreement](https://divvybikes.com/data-license-agreement) and is owned by the City of Chicago. Note: the original case study materials reference Motivate International Inc. as the data provider. Divvy has been operated by Lyft since its 2018 acquisition of Motivate. 
+
+The case study is structured into the Ask, Prepare, Process, Analyze, Share and Act Phases.
 
 The primary goal is to answer the question how annual members and casual riders use Cyclistic bikes differently.
 

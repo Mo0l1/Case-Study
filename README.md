@@ -166,7 +166,7 @@ A Welch's t-test confirmed this difference is highly statistically significant (
 
 | Finding | Statistical Significance | Effect Size / Practical Relevance |
 |---|---|---|
-| Weekday usage pattern (commuter vs. leisure) | Significant | Moderate (V = 0.163) |
+| Weekday usage pattern | Significant | Moderate (V = 0.163) |
 | Time-of-day usage pattern | Significant | Moderate (V = 0.159) |
 | Monthly/seasonal usage pattern | Significant | Moderate (V = 0.144) |
 | Bike type preference (electric vs. classic) | Significant | Very small (V = 0.039) |

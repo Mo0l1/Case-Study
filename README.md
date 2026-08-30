@@ -174,7 +174,7 @@ A Welch's t-test confirmed this difference is highly statistically significant (
 
 ### Interpretation
 
-The most actionable insights come from **weekday, time-of-day, and ride-duration patterns**, which consistently point to the same conclusion: members exhibit commuter-like behavior, shorter trips concentrated on weekdays, with a distinct bimodal peak around typical commute hours (approx. 7–9 AM and 5–6 PM) consistent with riding to and from work. Casual riders, by contrast, exhibit leisure-like behavior, longer trips concentrated on weekend afternoons, with usage peaking in the early evening rather than around fixed commute times. Bike type preference, while statistically significant due to the large sample size, shows a very small effect and is **not** a meaningful behavioral differentiator between the two groups.
+The most actionable insights come from **weekday, time-of-day, and ride-duration patterns**, which consistently point to the same conclusion. Members exhibit commuter-like behavior, shorter trips concentrated on weekdays, with a distinct bimodal peak around typical commute hours (approx. 7–9 AM and 5–6 PM) consistent with riding to and from work. Casual riders, by contrast, exhibit leisure-like behavior, longer trips concentrated on weekend afternoons, with usage peaking in the early evening rather than around fixed commute times. Bike type preference, while statistically significant due to the large sample size, shows a very small effect and is **not** a meaningful behavioral differentiator between the two groups.
 
 ## Act Phase
 
@@ -184,7 +184,7 @@ Based on the analysis, the following three recommendations are proposed to suppo
 Since casual riders show clear leisure-usage patterns (weekend peaks, longer average trip durations), a membership that is marketed purely as a "commuter tool" may not appeal to this group. Bundling annual membership with discounts at city amenities (e.g., public pools, parks, cultural events) would reposition membership as valuable for leisure users too, not just commuters.
 
 **2. Reframe the annual membersip's value proposition around weekend and leisure use and not just commuting .**<br>
-Since casual riders show a sharp usage peak on Saturdays, marketing campaigns could highlight how an annual membership pays off even for weekend-only users. For that you could use pricing comparisons that clearly show that value of annual memberships not only come from daily commuting.
+Since casual riders show a sharp usage peak on Saturdays, marketing campaigns could highlight how an annual membership pays off even for weekend-only users. For that you could use pricing comparisons that clearly show that the value of annual memberships not only comes from daily commuting.
 
-**3. Offer discounted seasonal memberships during low-demand months.**<br>
-Casual ridership drops sharply in winter (December–February) compared to members, who maintain more stable usage year-round. Discounted membership pricing during these off-peak months could incentivize casual riders to convert during a period when they are otherwise less engaged, helping smooth demand across the year while building habitual membership use.
+**3. Offer discounted annual memberships during low-demand months.**<br>
+Casual ridership drops sharply in winter (December–February) compared to members, who maintain more stable usage year-round. Offering discounted annual memberships during these off-peak months could motivate casual riders to commit to a full annual membership.

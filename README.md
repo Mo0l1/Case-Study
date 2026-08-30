@@ -154,7 +154,7 @@ While this difference is statistically significant (χ² = 9,023.46, p < 0.001),
 
 ### 6. Ride Duration by User Type
 
-Casual riders take substantially longer trips on average (mean: 17.9 
+Casual riders take on average substantially longer trips (mean: 17.9 
 minutes, median: 11.0 minutes) compared to members (mean: 11.5 minutes, 
 median: 8.0 minutes).
 

@@ -126,7 +126,7 @@ A clear difference between the two groups:
 
 <img width="500" alt="rides_by_weekday" src="https://github.com/user-attachments/assets/c1069d62-054c-4341-93a2-015cb080093f" />
 
-A Chi-Square test of independence confirmed a statistically significant association between `member_casual` and `day_of_week` (χ² = 156,443.80, p < 0.001, df = 6), with a **moderate** effect size (Cramér's V = 0.163) — the strongest association found among all categorical variables tested, supporting a clear commuter (member) vs. leisure (casual) usage pattern.
+A Chi-Square test of independence confirmed a statistically significant association between `member_casual` and `day_of_week` (χ² = 156,443.80, p < 0.001, df = 6), with a **moderate** effect size (Cramér's V = 0.163) - the strongest association found among all categorical variables tested, supporting a clear commuter (member) vs. leisure (casual) usage pattern.
 
 ### 3. Rides by Hour of Day
 

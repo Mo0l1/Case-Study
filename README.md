@@ -180,11 +180,11 @@ The most insights come from **weekday, time-of-day, and ride-duration patterns**
 
 Based on the analysis, the following three recommendations are proposed to support the conversion of casual riders into (annual) members:
 
-**1. Partner with the City of Chicago on leisure-oriented membership perks.** <br>
-Since casual riders show clear leisure-usage patterns (weekend peaks, longer average trip durations), a membership that is marketed purely as a "commuter tool" may not appeal to this group. Bundling annual membership with discounts at city amenities (e.g., public pools, parks, cultural events) would reposition membership as valuable for leisure users too, not just commuters.
+**1. Partner with the City of Chicago on leisure-oriented membership perks:** <br>
+Since casual riders show clear leisure-usage patterns (peak on weekend, longer average trip durations), a membership that is marketed purely as a "commuter tool" may not appeal to this group. Bundling annual membership with discounts at city amenities (e.g., public pools, parks, cultural events) would reposition membership as valuable for leisure users too, not just commuters.
 
-**2. Reframe the annual membersip's value proposition around weekend and leisure use and not just commuting .**<br>
+**2. Reframe the annual membersip's value proposition around weekend and leisure use and not just commuting:** <br>
 Since casual riders show a sharp usage peak on Saturdays, marketing campaigns could highlight how an annual membership pays off even for weekend-only users. For that you could use pricing comparisons that clearly show that the value of annual memberships not only comes from daily commuting.
 
-**3. Offer discounted annual memberships during the end-of-season months.**<br>
+**3. Offer discounted annual memberships during the end-of-season months:** <br>
 Casual ridership appears to decline more sharply than member ridership as the season ends, particularly around September and October. Offering discounted annual memberships during these end-of-season months could help cushion this drop-off by encouraging casual riders to commit to a full annual membership when their usage would otherwise start declining.

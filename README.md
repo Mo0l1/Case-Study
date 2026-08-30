@@ -150,7 +150,7 @@ Both rider groups predominantly choose electric bikes over classic bikes, with c
 
 <img width="500" alt="user_type_bike_type" src="https://github.com/user-attachments/assets/2f3a7ecc-497a-4bb8-b11a-b74c4a94105e" />
 
-While this difference is statistically significant (χ² = 9,023.46, p < 0.001), the effect size is very small (Cramér's V = 0.039), indicating that bike type preference is **not** a meaningful differentiator between member and casual riders — both groups behave similarly in this respect.
+While this difference is statistically significant (χ² = 9,023.46, p < 0.001), the effect size is very small (Cramér's V = 0.039), indicating that bike type preference is **not** a meaningful differentiator between member and casual riders, with both groups behaving similarly in this respect.
 
 ### 6. Ride Duration by User Type
 

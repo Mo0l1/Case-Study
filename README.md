@@ -68,7 +68,7 @@ Each row represents a single bike ride and includes:
 - **Comprehensive:** Includes trip-level detail across time, location, 
   user type, and vehicle type
 - **Current:** Covers the most recent available 12-month period
-- **Cited:** Publicly licensed and clearly sourced from Divvy/City of Chicago
+- **Cited:** Publicly licensed and sourced from Divvy/City of Chicago
 
 ## Process Phase
 

@@ -138,7 +138,7 @@ This association is also statistically significant and moderate in strength (Cra
 
 ### 4. Rides by Month
 
-Ride volume is highest in summer months (July–September 2025) and lowest in winter (December–February), consistent with typical seasonal cycling behavior. Casual ridership drops more sharply in winter relative to members, who maintain more stable usage the whole year.
+Ride volume is highest in summer months (July–September 2025) and lowest in winter (December–February), consistent with typical seasonal cycling behavior. Casual ridership drops more sharply in during end-of-season months (September - October) relative to members, who maintain more stable during these months.
 
 <img width="500" alt="rides_by_month" src="https://github.com/user-attachments/assets/2b8b050e-5a73-4cda-ac2f-3beee9a94762" />
 

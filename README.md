@@ -186,5 +186,5 @@ Since casual riders show clear leisure-usage patterns (weekend peaks, longer ave
 **2. Reframe the annual membersip's value proposition around weekend and leisure use and not just commuting .**<br>
 Since casual riders show a sharp usage peak on Saturdays, marketing campaigns could highlight how an annual membership pays off even for weekend-only users. For that you could use pricing comparisons that clearly show that the value of annual memberships not only comes from daily commuting.
 
-**3. Offer discounted annual memberships during low-demand months.**<br>
-Casual ridership drops sharply in winter (December–February) compared to members, who maintain more stable usage year-round. Offering discounted annual memberships during these off-peak months could motivate casual riders to commit to a full annual membership.
+**3. Offer discounted annual memberships during the end-of-season months.**<br>
+Casual ridership appears to decline more sharply than member ridership as the season ends, particularly around September and October. Offering discounted annual memberships during these end-of-season months could help cushion this drop-off by encouraging casual riders to commit to a full annual membership when their usage would otherwise start declining.

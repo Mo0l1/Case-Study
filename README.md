@@ -39,7 +39,7 @@ This analysis will directly inform the design of a marketing campaign aimed at c
 ## Prepare Phase
 
 ### Data Source
-This analysis uses Cyclistic's historical trip data, provided by Lyft Bikes and Scooters, LLC (operator of Divvy), with data owned by the City of Chicago. The dataset is made publicly available under Divvy's [Data License Agreement](https://divvybikes.com/data-license-agreement). The data does not include any personally identifiable information, meaning individual riders cannot be tracked across multiple trips or connected to specific accounts.
+This analysis uses Cyclistic's historical trip data, provided by Lyft Bikes and Scooters, LLC (operator of Divvy), with data owned by the City of Chicago. The dataset is made publicly available under [Divvy's Data License Agreement](https://divvybikes.com/data-license-agreement). The data does not include any personally identifiable information, meaning individual riders cannot be tracked across multiple trips or connected to specific accounts.
 
 ### Scope
 The analysis covers the most recent 12 months of ride data available (July 2025 – June 2026), ensuring the findings reflect current rider behavior.

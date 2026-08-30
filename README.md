@@ -160,7 +160,7 @@ median: 8.0 minutes).
 
 <img width="500" alt="duration_type" src="https://github.com/user-attachments/assets/1403f919-f2d7-48ef-9253-c90fe2e46c3d" />
 
-A Welch's t-test confirmed this difference is highly statistically significant (t = 34.66, p < 0.001). Combined with the weekday and time-of-day patterns, this supports the interpretation that casual riders use bikes for longer, more leisurely trips, while members take shorter, more purposeful (likely commute-related) trips.
+A Welch's t-test confirmed this difference is highly statistically significant (t = 34.66, p < 0.001). Combined with the weekday and time-of-day patterns, this supports the interpretation that casual riders use bikes for longer, likely leisure-related trips, while members take shorter, likely commute-related trips.
 
 ### Key Findings Summary
 

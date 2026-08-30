@@ -174,7 +174,7 @@ A Welch's t-test confirmed this difference is highly statistically significant (
 
 ### Interpretation
 
-The most actionable insights come from **weekday, time-of-day, and ride-duration patterns**, which consistently point to the same conclusion. Members exhibit commuter-like behavior, shorter trips concentrated on weekdays, with a distinct bimodal peak around typical commute hours (approx. 7–9 AM and 5–6 PM) consistent with riding to and from work. Casual riders, by contrast, exhibit leisure-like behavior, longer trips concentrated on weekend afternoons, with usage peaking in the early evening rather than around fixed commute times. Bike type preference, while statistically significant due to the large sample size, shows a very small effect and is **not** a meaningful behavioral differentiator between the two groups.
+The most insights come from **weekday, time-of-day, and ride-duration patterns**, which consistently point to the same conclusion. Members exhibit commuter-like behavior, shorter trips concentrated on weekdays, with distinct peaks around typical commute hours (approx. 7–9 AM and 5–6 PM) consistent with riding to and from work. Casual riders, by contrast, exhibit leisure-like behavior, longer trips concentrated on weekend afternoons, with usage peaking in the early evening rather than around fixed commute times. Bike type preference, while statistically significant due to the large sample size, shows a very small effect and is not a meaningful behavioral differentiator between the two groups.
 
 ## Act Phase
 

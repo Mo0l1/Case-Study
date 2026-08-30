@@ -130,7 +130,7 @@ A Chi-Square test of independence confirmed a statistically significant associat
 
 ### 3. Rides by Hour of Day
 
-Members show a **bimodal pattern** with peaks around 8 AM and a sharper peak at 5–6 PM, consistent with commute times. Casual riders show a **broader, single peak** in the afternoon (peaking around 5 PM), consistent with leisure activity.
+Members show a **bimodal pattern** with peaks around 8 AM and 5–6 PM, consistent with commute times. Casual riders show a **broader, single peak** in the afternoon (peaking around 5 PM), consistent with leisure activity.
 
 <img width="500" alt="rides_by_time_of_day" src="https://github.com/user-attachments/assets/83c2c4c6-a773-4e55-8be6-e31c3791177f" />
 

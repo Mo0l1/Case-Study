@@ -134,7 +134,7 @@ Members show a **bimodal pattern** with peaks around 8 AM and 5–6 PM, consiste
 
 <img width="500" alt="rides_by_time_of_day" src="https://github.com/user-attachments/assets/83c2c4c6-a773-4e55-8be6-e31c3791177f" />
 
-This association is also statistically significant and moderate in strength (Cramér's V = 0.159, p < 0.001), reinforcing the commuter vs. leisure hypothesis from a second angle.
+This association is also statistically significant and moderate in strength (Cramér's V = 0.159, p < 0.001), reinforcing the commuter vs. leisure theory from a second angle.
 
 ### 4. Rides by Month
 
